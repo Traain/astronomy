@@ -55,6 +55,14 @@ body {
     width: 100%;
 }
 
+.slide-image {
+    display: none;
+}
+
+.slide-image:first-child {
+    display: block;
+}
+
 .slide-image img {
     
     width: 100%;
@@ -81,8 +89,13 @@ body {
     border-radius: 20px;
 }
 
+.previous {
+    margin-left: 20px;
+}
+
 .next {
     right: 0;
+    margin-right: 20px;
 }
 
 .previous:hover, .next:hover {
