@@ -1,3 +1,5 @@
+/* main */
+
 body {
     background-color: #e9e9e9;
     color: white;
@@ -6,6 +8,9 @@ body {
     border: 0;
     padding: 0;
 }
+
+/* nav bar */
+
 #top-nav {
     position: fixed;
     top: 0;
@@ -83,7 +88,7 @@ body {
     cursor: pointer;
     position: absolute;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     padding: 15px;
     top: 50%;
     border-radius: 20px;
@@ -128,6 +133,7 @@ body {
 .active, .dot:hover {
     opacity: 75%;
 }
+
 /* Slideshow animation */
 
 .fade {
@@ -149,9 +155,13 @@ body {
 
 /* Welcome section */
 
+.container {
+    display: flex;
+}
+
 #welcome {
-    color: #525564;
-    margin: -40px 0px -40px 0px;
+    color: #393d52;
+    margin: -40px 0px 0px 0px;
     padding: 20px;
 }
 
@@ -159,3 +169,39 @@ body {
     font-size: 60px;
 }
 
+#welcome p {
+    line-height: 1.5;
+    margin-right: 30px;
+    color: #32333a;
+}
+
+#astronomy-desk {
+    width: 400px;
+    height: 350px;
+    box-shadow: 5px 5px 5px gray, -5px 5px 5px gray;
+}
+
+/* Our goals section */
+
+#our-goals {
+    background-color: #32333a;
+    padding: 20px;
+}
+
+#our-goals h1 {
+    font-size: 45px;
+}
+
+#our-goals ul {
+    padding-left: 30%;
+    list-style: none;
+}
+
+#our-goals li {
+    line-height: 2;
+    font-size: 20px;
+}
+
+#our-goals p {
+    padding-left: 20px;
+}
