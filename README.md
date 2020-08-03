@@ -15,6 +15,8 @@ This website was built for the Great Neck North High School Astronomy Club.
 margin: 0;
 padding: 0;
 
+- it is recommended to use just one style sheet (or as least as possible)
+
 - how to build a nav-bar
 - how to build a slideshow
 - basic positioning
@@ -23,3 +25,6 @@ padding: 0;
 
 - how to use box shadow
 - basic flexbox
+
+- how to import fonts and icons
+- how to build a multi-page site
