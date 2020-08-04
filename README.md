@@ -1,12 +1,10 @@
-First large project / Website!
+First website!
 
 This website was built for the Great Neck North High School Astronomy Club.
 
 !!! To-Do List:
 
 - import Google fonts for a modern feel
-- insert an image next to the "Welcome" section
-- import icons and use them in the list
 
 !!! What I have Learned:
 

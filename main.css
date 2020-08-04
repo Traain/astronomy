@@ -3,7 +3,7 @@
 body {
     background-color: #e9e9e9;
     color: white;
-    font-family: 'Roboto', helvetica, arial;
+    font-family: helvetica, arial;
     margin: 0;
     border: 0;
     padding: 0;
@@ -16,8 +16,9 @@ body {
     top: 0;
     overflow: hidden;
     width: 100%;
-    background-color: #000000;
+    background-color: #000;
     z-index: 9999;
+    height: 36.97px;
 }
 
 #top-nav ul {
@@ -27,11 +28,6 @@ body {
 
 #top-nav li {
     float:left;
-    border-left: .5px solid #fff;
-}
-
-#top-nav li:first-child {
-    border-left: none;
 }
 
 #top-nav a {
@@ -44,11 +40,23 @@ body {
 }
 
 #top-nav a:hover {
-    background-color: #455A64;
+    background-color: #393d52;
 }
 
+#top-nav a.no-hover:hover {
+    background-color: #000;
+}
+
+
 #top-nav .nav-active {
-    background-color: #455A64;
+    background-color: #393d52;
+}
+
+#top-nav img{
+    
+    height: 36.97px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /* bottom nav bar */
@@ -58,6 +66,7 @@ body {
     font-size: 12px;
     padding-top: 5px;
     padding-left: 10px;
+    bottom: 0;
 }
 
 /* slideshow css */
@@ -130,7 +139,7 @@ body {
     cursor: pointer;
     height: 10px;
     width: 10px;
-    background-color: gray;
+    background-color: rgb(109, 109, 109);
     opacity: 25%;
     display: inline-block;
     border-radius: 50%;
@@ -170,7 +179,7 @@ body {
 }
 
 #welcome {
-    color: #393d52;
+    color: #32333a;
     padding: 0px 20px 20px 60px;
 }
 
@@ -182,6 +191,9 @@ body {
     line-height: 2;
     padding: 0px 100px 0px 20px;
     color: #32333a;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 18px;
 }
 
 #astronomy-desk {
@@ -193,7 +205,7 @@ body {
 /* Our goals section */
 
 #our-goals {
-    background-color: #32333a;
+    background-color: #1a1b1f;
     padding: 20px 20px 60px 60px;
 }
 
@@ -214,14 +226,23 @@ body {
 #our-goals p {
     padding-left: 15%;
     padding-right: 10%;
-    line-height: 1.5;
+    line-height: 2;
+    color: #e9e9e9;
 }
 
 .fas {
-    color: #e9e9e9;
-    margin-right: 20px;
-    height: 60px;
-    width: 60px;
+    color: #6c7591;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    background-color: #26272c;
+    padding: 10px;
+    margin: 0px 100px 20px 0px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #1a1b1f;
 }
 
 /* Join us section */
@@ -235,3 +256,42 @@ body {
 
 }
 
+/* ----- Other Pages ----- */
+
+.page-heading {
+    padding: 30px 0px 0px 40px;
+    color: #393d52;
+    font-size: 45px;
+}
+
+/* events page */
+
+#events-body {
+    background-color: #1a1b1f;
+    text-align: center;
+    color: #e2e2e2;
+    margin: 50px;
+    padding: 30px;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+/* about page */
+
+#about-body {
+    color: #393d52;
+    line-height: 1.5;
+}
+
+#about-body h2{
+    margin-left: 50px;
+}
+
+.officer-card {
+    color: #e2e2e2;
+    margin: 0px 50px 20px 50px;
+    background-color: #1a1b1f;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
