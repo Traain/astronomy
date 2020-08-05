@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: white;
     display: block;
-    padding: 5vh 24px 10px 24px;
+    padding: 4vh 2.5vw;
     text-align: center;
     font-size: 14px;
     height: 10vh;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #welcome {
     color: #46505a;
-    padding: 0px 20px 20px 60px;
+    padding: 50px 60px;
     position: relative;
 }
 
@@ -338,8 +338,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* mobile screens */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-device-width: 480px) {
 
+    body {
+        background-color: pink;
+    }
     .slideshow {
         height: 500px;
     }
@@ -351,17 +354,15 @@ h1, h2, h3, h4, h5, h6 {
     #welcome p, #our-goals p, #join-us p {
         font-size: 20px;
     }
+
+    #welcome p {
+        padding: 5vh 5vw;
+    }
     
     #welcome h1 {
         font-size: 40px;
     }
 
-    #welcome img {
-        width: 70%;
-        height: auto;
-        margin-left: 10%;
-    }
-    
     #our-goals ul {
         padding-left: 5px;
         padding-right: 5px;
