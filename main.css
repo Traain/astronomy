@@ -186,6 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 #welcome {
     color: #46505a;
     padding: 0px 20px 20px 60px;
+    position: relative;
 }
 
 #welcome h1 {
@@ -249,7 +250,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1a1b1f;
     padding: 10px;
     margin: 0px 100px 20px 0px;
-    
     box-shadow: 3px 3px 3px #1a1b1f;
     border-style: solid;
     border-color: #373b47;
@@ -285,6 +285,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px;
     height: 70vh;
     border-radius: 10px;
+    border-color: #6c85b3;
+    border-width: 2px;
+    border-style: outset;
 }
 
 /* about page */
@@ -309,6 +312,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1a1b1f;
     padding: 10px 60px 20px 30px;
     border-radius: 8px;
+    border-color: #6c85b3;
+    border-width: 2px;
+    border-style: outset;
 }
 
 .officer-card p:last-child {
@@ -332,6 +338,30 @@ h1, h2, h3, h4, h5, h6 {
 
 #gallery-body p {
     font-size: 12px;
-    padding-top: 0px;
+    margin-bottom: 30px;
     color: #48515a;
 }
+
+/* mobile screens */
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+        display: block;
+    }
+    
+    #welcome h1 {
+        font-size: 40px;
+    }
+
+    #welcome img {
+        width: 70%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    #our-goals ul {
+        padding-left: 10%;
+    }
+    
+  }
