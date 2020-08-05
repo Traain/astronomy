@@ -343,11 +343,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-device-width: 480px) {
 
-    body {
-        background-color: pink;
-    }
     .slideshow {
-        height: 500px;
+        height: 40vh;
     }
 
     .container {
@@ -355,15 +352,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #welcome p, #our-goals p, #join-us p {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #welcome p {
         padding: 5vh 5vw;
-    }
-    
-    #welcome h1 {
-        font-size: 40px;
     }
 
     #our-goals ul {
