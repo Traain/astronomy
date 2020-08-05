@@ -9,10 +9,6 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    
-}
-
 /* top nav bar */
 
 #top-nav {
@@ -94,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 .slide-image img {
     width: 100%;
     max-width: 700px;
-    height: 70vh;
+    height: 25em;
     margin-top: 10vh;
     display: block;
     margin-left: auto;
@@ -257,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 3px 3px 3px #1a1b1f;
     border-style: solid;
     border-color: #373b47;
-    border-width: 3px;
+    border-width: .25vw;
 }
 
 /* Join us section */
@@ -285,12 +281,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1a1b1f;
     text-align: center;
     color: #e2e2e2;
-    margin: 50px;
-    padding: 30px;
+    margin: 10vh 10vw;
+    padding: 10vh 10vw;
     height: 70vh;
-    border-radius: 10px;
+    border-radius: 1vw;
     border-color: #6c85b3;
-    border-width: 2px;
+    border-width: .25vw;
     border-style: outset;
 }
 
@@ -299,7 +295,10 @@ h1, h2, h3, h4, h5, h6 {
 #about-body {
     color: #393d52;
     line-height: 1.5;
-    padding: 10vw;
+}
+
+#about-body h2 {
+    margin-left: 10vw;
 }
 
 #about-body h3 {
@@ -309,12 +308,12 @@ h1, h2, h3, h4, h5, h6 {
 .officer-card {
     color: #6c7591;
     background-color: #1a1b1f;
-    padding: 10px 60px 20px 30px;
-    border-radius: 8px;
+    padding: 5vh 5vw;
+    border-radius: 1vw;
     border-color: #6c85b3;
-    border-width: 2px;
+    border-width: .25vw;
     border-style: outset;
-    margin-bottom: 10vh;
+    margin: 10vh 10vw;
 }
 
 .officer-card p:last-child {
@@ -347,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-device-width: 480px) {
 
     body {
-        background-color: #5f83c5;
+        background-color: #dc90ff;
     }
 
     #top-nav a {
@@ -362,8 +361,9 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
     }
 
-    h1 {
+    #welcome h1, #our-goals h1 {
         font-size: 60px;
+        line-height: 2;
     }
 
     #welcome p, #our-goals p, #join-us p {
