@@ -345,6 +345,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 800px) {
 
+    .slideshow {
+        height: 500px;
+    }
+
     .container {
         display: block;
     }
@@ -360,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     #our-goals ul {
-        padding-left: 10%;
+        padding-left: 0%;
     }
     
   }
