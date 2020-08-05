@@ -343,6 +343,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-device-width: 480px) {
 
+    body {
+        background-color: #6c85b3;
+    }
+
     .slideshow {
         height: 40vh;
     }
