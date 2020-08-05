@@ -202,10 +202,8 @@ body {
 #astronomy-desk {
     width: 40vw;
     height: 60vh;
-    box-shadow: 5px 5px 5px #333c4d;
-    margin-bottom: 10vh;
-    padding-right: 5vw;
-    margin-top: 2vh;
+    box-shadow: 1px 0px 5px #1f242e, -1px 0px 5px #1f242e, 0px -1px 5px #1f242e, 0px 1px 5px #1f242e;
+    margin: 2vh 5vw 10vh 0;
 }
 
 /* Our goals section */
@@ -346,7 +344,7 @@ body {
 @media only screen and (max-device-width: 480px) {
 
     body {
-        background-color: #dc90ff;
+        background-color: #6e537a;
     }
 
     #top-nav a {
@@ -361,8 +359,8 @@ body {
         display: block;
     }
 
-    #welcome h1, #our-goals h1 {
-        font-size: 60px;
+    #welcome h1, #our-goals h1, #our-goals li {
+        font-size: 100px;
         line-height: 2;
     }
 
