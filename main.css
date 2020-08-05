@@ -184,17 +184,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #welcome {
     color: #46505a;
-    padding: 50px 60px;
     position: relative;
 }
 
 #welcome h1 {
     font-size: 55px;
+    padding: 5vh 5vw;
 }
 
 #welcome p {
     line-height: 2;
-    padding: 0px 100px 0px 20px;
+    padding: 5vh 5vw;
     color: #48515a;
     text-indent: 50px;
     text-align: justify;
@@ -202,21 +202,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #astronomy-desk {
-    width: 400px;
-    height: 350px;
+    width: 40vw;
+    height: 60vh;
     box-shadow: 5px 5px 5px gray, -5px 5px 5px gray;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 /* Our goals section */
 
 #our-goals {
     background-color: #1a1b1f;
-    padding: 10vw;
+    padding: 5vh 5vw;
 }
 
 
 #our-goals h1, #join-us h1 {
     font-size: 45px;
+    padding: 5vh 5vw;
 }
 
 #our-goals ul {
