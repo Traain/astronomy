@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slide-image img {
     width: 100%;
+    max-width: 700px;
     height: 70vh;
     margin-top: 10vh;
     display: block;
@@ -187,14 +188,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #welcome h1 {
     font-size: 55px;
-    padding: 5vh 5vw;
+    padding: 10vh 10vw;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #welcome p {
+    margin-top: 0;
     line-height: 2;
-    padding: 5vh 5vw;
+    padding: 0 10vw;
     color: #ecf3ff;
     text-indent: 50px;
     text-align: justify;
@@ -204,10 +206,10 @@ h1, h2, h3, h4, h5, h6 {
 #astronomy-desk {
     width: 40vw;
     height: 60vh;
-    box-shadow: 5px 5px 5px #333c4d, -5px 5px 5px #333c4d;
-    margin-top: 10vh;
+    box-shadow: 5px 5px 5px #333c4d;
     margin-bottom: 10vh;
     padding-right: 5vw;
+    margin-top: 2vh;
 }
 
 /* Our goals section */
