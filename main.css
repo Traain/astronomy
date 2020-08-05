@@ -298,7 +298,7 @@ body {
 
 .officer-card {
     background-color: #1a1b1f;
-    padding: 3vh 3vh;
+    padding: 5vh 5vh;
     box-shadow: 3px 3px 3px #1a1b1f;
     border-style: solid;
     border-color: #373b47;
@@ -354,7 +354,7 @@ body {
         display: block;
     }
 
-    #welcome h1, #our-goals h1, #our-goals li {
+    #welcome h1, #our-goals h1, #our-goals li, #join-us h1 {
         font-size: 100px;
         line-height: 1.25;
     }
@@ -369,6 +369,8 @@ body {
 
     #welcome img {
         width: 50vw;
+        height: auto;
+        display: block;
         margin-left: auto;
         margin-right: auto;
     }
