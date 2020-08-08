@@ -64,10 +64,10 @@ body {
 
 #bottom-nav {
     color: #a3a3a3;
-    font-size: 12px;
     padding: 5px 10px;
     margin-bottom: 0;
     background-color: #212731;
+   
 }
 
 /* slideshow css */
@@ -313,12 +313,12 @@ body {
 /* gallery page */
 
 #gallery-body {
-    margin: 50px;
     text-align: center;
 }
 
 #gallery-body img {
-    width: 50vw;
+    width: 75vw;
+    max-width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -361,14 +361,19 @@ body {
         padding-bottom: 5vh;
     }
 
-    #welcome h1, #our-goals h1, #our-goals li, #join-us h1,
-    #gallery-body h2 {
+    #welcome h1, #our-goals h1, #our-goals li, #join-us h1{
         font-size: 100px;
         line-height: 1.25;
+        
     }
 
     #welcome h1 {
         padding-bottom: 0;
+    }
+
+    .page-heading {
+        margin-top: 10vh;
+
     }
 
     #welcome p, #our-goals p, #join-us p {
@@ -380,7 +385,7 @@ body {
     }
 
     #welcome img {
-        width: 75vw;
+        width: 70vw;
         height: auto;
         display: block;
         margin-left: auto;
@@ -391,6 +396,14 @@ body {
         border-width: .25vw;
     }
 
-  
+    #gallery-body p {
+        font-size: 30px;
+    }
+
+    #gallery-body h2 {
+        font-size: 40px
+    }
+
+    
 
   }
